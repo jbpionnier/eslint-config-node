@@ -1,0 +1,40 @@
+{
+  "name": "@jbpionnier/eslint-config-node",
+  "version": "1.4.0",
+  "description": "ESLint Sharable Config",
+  "author": "Jean-Baptiste Pionnier",
+  "license": "MIT",
+  "main": "base.js",
+  "homepage": "https://github.com/jbpionnier/eslint-config-node#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbpionnier/eslint-config-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbpionnier/eslint-config-node/issues"
+  },
+  "keywords": [
+    "eslint",
+    "es6",
+    "es2015",
+    "flow",
+    "flowtype",
+    "lint",
+    "complexity",
+    "style guide"
+  ],
+  "files": [
+    "base.js",
+    "legacy.js",
+    "flow.js",
+    "rules",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint *.js rules",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "~3.11.0"
+  }
+}
