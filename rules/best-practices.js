@@ -6,7 +6,7 @@ module.exports = {
     'default-case': 2,
     'dot-notation': 2,
     'dot-location': [2, 'property'],
-    'eqeqeq': [2, 'allow-null'],
+    'eqeqeq': [2, 'always', { null: 'ignore' }],
     'guard-for-in': 2,
     'no-alert': 2,
     'no-caller': 2,
@@ -41,9 +41,9 @@ module.exports = {
     'no-void': 2,
     'no-with': 2,
     'radix': 2,
-    'wrap-iife': [2, 'inside'],
     'no-unmodified-loop-condition': 2,
     'array-callback-return': 2,
+    'wrap-iife': [2, 'any', { functionPrototypeMethods: true }],
     'yoda': 2
   }
 };
