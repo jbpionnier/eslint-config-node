@@ -35,6 +35,6 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "eslint": "~3.11.0"
+    "eslint": "~3.17.0"
   }
 }
