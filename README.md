@@ -33,6 +33,39 @@ See [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending
 for more information.
 
 
+## TSLint
+
+> An TSLint [Shareable Config](https://palantir.github.io/tslint/usage/configuration/)
+
+1. `npm install --save-dev @jbpionnier/eslint-config-node`
+2. create a file named `tslint.json` in your project:
+
+```js
+{
+  "extends": "@jbpionnier/eslint-config-node/tslint-strict"
+  // Your overrides...
+}
+
+```
+
+We export two [TSLint](https://palantir.github.io/tslint/) configurations for your usage.
+
+### eslint-config-node/tslint
+
+Lints Typescript
+
+### eslint-config-node/tslint-strict
+
+Lints Typescript with [type check](https://palantir.github.io/tslint/usage/type-checking/)
+
+Use the --type-check flag to make sure your program has no type errors.
+
+```json
+{
+  "lint": "tslint -p . '{src,config}/**/*.ts'"
+}
+```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
