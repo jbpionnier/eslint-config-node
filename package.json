@@ -1,6 +1,6 @@
 {
   "name": "@jbpionnier/eslint-config-node",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "ESLint Sharable Config",
   "author": "Jean-Baptiste Pionnier",
   "license": "MIT",
