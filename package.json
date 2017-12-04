@@ -1,6 +1,6 @@
 {
   "name": "@jbpionnier/eslint-config-node",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "ESLint Sharable Config",
   "author": "Jean-Baptiste Pionnier",
   "license": "MIT",
@@ -38,6 +38,6 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "eslint": "~3.17.0"
+    "eslint": "~4.12.0"
   }
 }
