@@ -1,15 +1,12 @@
 {
   "name": "@jbpionnier/eslint-config-node",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "ESLint Sharable Config",
   "author": "Jean-Baptiste Pionnier",
   "license": "MIT",
   "main": "base.js",
   "homepage": "https://github.com/jbpionnier/eslint-config-node#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jbpionnier/eslint-config-node.git"
-  },
+  "repository": "jbpionnier/eslint-config-node",
   "bugs": {
     "url": "https://github.com/jbpionnier/eslint-config-node/issues"
   },
@@ -38,6 +35,6 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "eslint": "~4.12.0"
+    "eslint": "~4.13.0"
   }
 }
