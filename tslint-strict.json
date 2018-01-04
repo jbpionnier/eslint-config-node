@@ -1,49 +1,16 @@
 {
   "extends": "tslint:all",
   "rules": {
-    "cyclomatic-complexity": [true, 10],
-    "interface-over-type-literal": false,
-    "max-file-line-count": [true, 200],
-    "max-line-length": false,
-    "no-consecutive-blank-lines": [true, 2],
-    "no-console": false,
-    "object-literal-key-quotes": [true, "as-needed"],
-    "object-literal-sort-keys": false,
-    "only-arrow-functions": false,
-    "ordered-imports": false,
-    "quotemark": [true, "single", "avoid-escape"],
-    "semicolon": [true, "never"],
-    "space-before-function-paren": [true, {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
-    "no-var-requires": false,
-    "variable-name": false,
-    "interface-name": false,
-    "member-ordering": false,
-    "no-empty-interface": false,
-    "no-unused-expression": false,
-    "no-submodule-imports": false,
-    "no-object-literal-type-assertion": false,
-    "comment-format": false,
-    "no-default-export": false,
-    "no-null-keyword": false,
-    "no-magic-numbers": false, // ?
-    "no-import-side-effect": false, // ?
-    "newline-before-return": false, // ?
-    "prefer-function-over-method": [true, "allow-public"],
-    "no-require-imports": false,
-    "type-literal-delimiter": false,
-    "arrow-return-shorthand": false,
-    "completed-docs": false,
-    "no-unsafe-any": false,
-    "align": [
-      true,
-      "elements",
-      "members",
-      "parameters",
-      "statements"
-    ],
-    "no-any": false,
-    "triple-equals": [true, "allow-null-check", "allow-undefined-check"],
+    // TypeScript Specific
     "member-access": false,
+    "member-ordering": false,
+    "no-any": false,
+    "no-empty-interface": false,
+    "no-import-side-effect": false, // ?
+    "no-magic-numbers": false, // ?
+    "no-var-requires": false,
+    "only-arrow-functions": false,
+    "promise-function-async": false,
     "typedef": [
       true,
       "arrow-call-signature",
@@ -52,20 +19,29 @@
       "property-declaration",
       "member-variable-declaration"
     ],
+
+    // Functionality
     "await-promise": [true, "Bluebird"],
-    "return-undefined": false,
-    "strict-type-predicates": false,
-    "no-boolean-literal-compare": false,
-    "promise-function-async": false,
-    "no-inferred-empty-object-type": false,
-    "no-unbound-method": false,
-    "strict-boolean-expressions": false, // ?
-//    "use-default-type-parameter": false,
-//    "no-unnecessary-type-assertion": false,
-
+    "no-console": false,
     "no-implicit-dependencies": false,
-    "no-parameter-properties": false,
+    "no-inferred-empty-object-type": false,
+    "no-null-keyword": false,
+    "no-object-literal-type-assertion": false,
+    "no-submodule-imports": false,
+    "no-unbound-method": false,
+    "no-unsafe-any": false,
+    "no-unused-expression": false,
+    "strict-boolean-expressions": false, // ?
+    "strict-type-predicates": false,
+    "triple-equals": [true, "allow-null-check", "allow-undefined-check"],
 
+    // Maintainability
+    "cyclomatic-complexity": [true, 10],
+    "max-file-line-count": [true, 200],
+    "max-line-length": false,
+    "no-default-export": false,
+    "no-require-imports": false,
+    "object-literal-sort-keys": false,
     "trailing-comma": [
       true,
       {
@@ -77,6 +53,32 @@
         },
         "esSpecCompliant": true
       }
-    ]
+    ],
+
+    // Style
+    "align": [
+      true,
+      "parameters",
+      "statements",
+      "elements",
+      "members"
+    ],
+    "arrow-return-shorthand": false,
+    "comment-format": false,
+    "completed-docs": false,
+    "interface-name": false,
+    "interface-over-type-literal": false,
+    "newline-before-return": false, // ?
+    "no-boolean-literal-compare": false,
+    "no-parameter-properties": false,
+    "object-literal-key-quotes": [true, "as-needed"], // ?
+    "ordered-imports": false,
+    "prefer-function-over-method": [true, "allow-public"],
+    "quotemark": [true, "single", "avoid-escape"],
+    "return-undefined": false,
+    "semicolon": [true, "never"],
+    "space-before-function-paren": [true, {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
+    "type-literal-delimiter": false,
+    "variable-name": false
   }
 }
