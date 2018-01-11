@@ -1,6 +1,6 @@
 {
   "name": "@jbpionnier/eslint-config-node",
-  "version": "1.5.5",
+  "version": "1.5.7",
   "description": "ESLint Sharable Config",
   "author": "Jean-Baptiste Pionnier",
   "license": "MIT",
@@ -13,8 +13,11 @@
   "keywords": [
     "eslint",
     "tslint",
-    "es6",
-    "es2015",
+    "ES6",
+    "ES2015",
+    "ES2016",
+    "ES2017",
+    "ESNEXT",
     "flow",
     "flowtype",
     "lint",
@@ -27,8 +30,7 @@
     "flow.js",
     "tslint.json",
     "tslint-strict.json",
-    "rules",
-    "README.md"
+    "rules"
   ],
   "scripts": {
     "lint": "eslint *.js rules",
