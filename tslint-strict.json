@@ -4,7 +4,6 @@
     // TypeScript Specific
     "member-access": false,
     "member-ordering": false,
-    "no-any": false,
     "no-empty-interface": false,
     "no-import-side-effect": false, // ?
     "no-magic-numbers": false, // ?
@@ -38,7 +37,7 @@
 
     // Maintainability
     "cyclomatic-complexity": [true, 10],
-    "max-file-line-count": [true, 200],
+    "max-file-line-count": [true, 300],
     "max-line-length": false,
     "no-default-export": false,
     "no-require-imports": false,
@@ -75,7 +74,7 @@
     "no-parameter-properties": false,
     "object-literal-key-quotes": [true, "as-needed"], // ?
     "ordered-imports": false,
-    "prefer-function-over-method": [true, "allow-public"],
+    "prefer-function-over-method": false, // ?
     "quotemark": [true, "single", "avoid-escape"],
     "return-undefined": false,
     "semicolon": [true, "never"],
