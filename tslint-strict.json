@@ -2,8 +2,26 @@
   "extends": "tslint:all",
   "rules": {
     // TypeScript Specific
-    "member-access": false,
-    "member-ordering": false,
+    "member-access": [true, "no-public"],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-constructor",
+          "protected-constructor",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
     "no-empty-interface": false,
     "no-import-side-effect": false, // ?
     "no-magic-numbers": false, // ?
@@ -36,7 +54,7 @@
     "triple-equals": [true, "allow-null-check", "allow-undefined-check"],
 
     // Maintainability
-    "cyclomatic-complexity": [true, 10],
+    "cyclomatic-complexity": [true, 9],
     "max-file-line-count": [true, 300],
     "max-line-length": false,
     "no-default-export": false,
