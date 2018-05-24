@@ -41,7 +41,6 @@
     // Functionality
     "await-promise": [true, "Bluebird"],
     "no-console": false,
-    "no-implicit-dependencies": false,
     "no-inferred-empty-object-type": false,
     "no-null-keyword": false,
     "no-object-literal-type-assertion": false,
