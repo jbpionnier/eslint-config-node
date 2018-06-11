@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "./tslint-strict.json",
+    "tslint-immutable",
+    "tslint-consistent-codestyle",
+    "tslint-sonarts"
+  ],
+  "rules": {
+    // Immutability rules
+    // https://github.com/jonaskello/tslint-immutable
+    "readonly-keyword": true,
+    "readonly-array": true,
+    "no-let": true,
+    "no-object-mutation": true,
+    "no-delete": true,
+    "no-loop-statement": true,
+    "no-mixed-interface": true,
+
+    // Consistent rules
+    // https://github.com/ajafff/tslint-consistent-codestyle
+    "early-exit": true,
+    "no-accessor-recursion": true,
+    "no-collapsible-if": true,
+    "no-unnecessary-else": true,
+    "no-return-undefined": true,
+    "no-static-this": true,
+    "no-var-before-return": true,
+    "prefer-const-enum": true,
+
+    // Tslint Sonarts
+    // https://github.com/SonarSource/SonarTS
+    "cognitive-complexity": [true, 6],
+    "mccabe-complexity": [true, 10],
+    "no-big-function": [true, 100],
+    "parameters-max-number": [true, 11],
+    "no-duplicate-string": false,
+    "no-commented-code": false
+  }
+}
