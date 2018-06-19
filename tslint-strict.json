@@ -40,6 +40,7 @@
 
     // Functionality
     "await-promise": [true, "Bluebird"],
+    "no-floating-promises": [true, "Bluebird"],
     "no-console": false,
     "no-inferred-empty-object-type": false,
     "no-null-keyword": false,

@@ -32,7 +32,7 @@
     "cognitive-complexity": [true, 6],
     "mccabe-complexity": [true, 10],
     "no-big-function": [true, 100],
-    "parameters-max-number": [true, 11],
+    "parameters-max-number": [true, 8],
     "no-duplicate-string": false,
     "no-commented-code": false
   }
