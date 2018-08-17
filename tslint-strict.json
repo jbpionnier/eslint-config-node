@@ -84,6 +84,7 @@
     "arrow-return-shorthand": false,
     "comment-format": false,
     "completed-docs": false,
+    "file-name-casing": false,
     "interface-name": false,
     "interface-over-type-literal": false,
     "newline-before-return": false, // ?

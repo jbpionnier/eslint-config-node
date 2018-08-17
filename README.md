@@ -2,11 +2,16 @@
 
 [![npm version](https://badge.fury.io/js/%40jbpionnier%2Feslint-config-node.svg)](https://badge.fury.io/js/%40jbpionnier%2Feslint-config-node)
 
-> An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) with optional Flow support
+> A linter Shareable Config for [ESlint](http://eslint.org/docs/developer-guide/shareable-configs) and [TSLint](https://palantir.github.io/tslint/usage/configuration/)
 
-## :package: Usage
-1. `npm install --save-dev @jbpionnier/eslint-config-node`
-2. create a file named `.eslintrc` in your project:
+
+`npm install --save-dev @jbpionnier/eslint-config-node`
+
+## :smiley_cat: ESLint
+
+We export three [ESLint](http://eslint.org/) configurations for your usage.
+
+Create a file named `.eslintrc` in your project:
 
 ```js
 {
@@ -15,15 +20,14 @@
 }
 ```
 
-We export three ESLint configurations for your usage.
-
 ### :frog: eslint-config-node
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+.
 
+
 ### :ok_woman: eslint-config-node/flow
 
-Lints ECMAScript 6+ with [Flow](https://flowtype.org/) support. Requires `eslint`, `babel-eslint` and [`eslint-plugin-flowtype`](https://github.com/gajus/eslint-plugin-flowtype)
+Lints ECMAScript 6+ with [Flow](https://flowtype.org/) support. Requires `babel-eslint` and [`eslint-plugin-flowtype`](https://github.com/gajus/eslint-plugin-flowtype)
 
 ### :hospital: eslint-config-node/legacy
 
@@ -35,12 +39,11 @@ for more information.
 
 ## :lollipop: TSLint
 
-> An TSLint [Shareable Config](https://palantir.github.io/tslint/usage/configuration/)
-
 _WTF ? tslint config in eslint config module ? :persevere:_
 
-1. `npm install --save-dev @jbpionnier/eslint-config-node`
-2. create a file named `tslint.json` in your project:
+We export three [TSLint](https://palantir.github.io/tslint/) configurations for your usage.
+
+Create a file named `tslint.json` in your project:
 
 ```js
 {
@@ -49,8 +52,6 @@ _WTF ? tslint config in eslint config module ? :persevere:_
 }
 
 ```
-
-We export two [TSLint](https://palantir.github.io/tslint/) configurations for your usage.
 
 ### :v: eslint-config-node/tslint
 
@@ -67,6 +68,14 @@ Use the --type-check flag to make sure your program has no type errors.
   "lint": "tslint -p . 'src/**/*.ts'"
 }
 ```
+
+### :bento: eslint-config-node/tslint-immutable
+
+Lints Typescript with immutable rules with : 
+ - [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
+ - [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
+ - [SonarTS](https://github.com/SonarSource/SonarTS/)
+
 
 ## :memo: License
 

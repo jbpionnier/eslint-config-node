@@ -1,6 +1,6 @@
 {
   "name": "@jbpionnier/eslint-config-node",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "ESLint Sharable Config",
   "author": "Jean-Baptiste Pionnier",
   "license": "MIT",
@@ -27,7 +27,9 @@
     "style guide",
     "immutable",
     "immutability",
-    "codestyle"
+    "codestyle",
+    "sonarts",
+    "sonarqube"
   ],
   "files": [
     "base.js",
@@ -43,6 +45,6 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.3.0"
   }
 }
