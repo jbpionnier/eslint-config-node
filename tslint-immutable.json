@@ -11,7 +11,7 @@
     "readonly-keyword": true,
     "readonly-array": true,
     "no-let": true,
-    "no-object-mutation": true,
+    "no-object-mutation": [ true, { "ignore-prefix": ["this.", "exports."] } ],
     "no-delete": true,
     "no-loop-statement": true,
     "no-mixed-interface": true,
