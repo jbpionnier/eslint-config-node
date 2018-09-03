@@ -43,6 +43,7 @@
     "no-floating-promises": [true, "Bluebird"],
     "no-console": false,
     "no-inferred-empty-object-type": false,
+    "no-implicit-dependencies": [true, "dev"],
     "no-null-keyword": false,
     "no-object-literal-type-assertion": false,
     "no-submodule-imports": false,
