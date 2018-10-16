@@ -57,6 +57,7 @@
 
     // Maintainability
     "cyclomatic-complexity": [true, 9],
+    "max-classes-per-file": false,
     "max-file-line-count": [true, 300],
     "max-line-length": false,
     "no-default-export": false,
@@ -68,6 +69,12 @@
         "multiline": {
           "objects": "always",
           "arrays": "always",
+          "functions": "always",
+          "typeLiterals": "never"
+        },
+        "singleline": {
+          "objects": "never",
+          "arrays": "never",
           "functions": "never",
           "typeLiterals": "never"
         },

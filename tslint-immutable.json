@@ -9,7 +9,7 @@
     // Immutability rules
     // https://github.com/jonaskello/tslint-immutable
     "readonly-keyword": true,
-    "readonly-array": true,
+    "readonly-array": [true, "ignore-rest-parameters"],
     "no-let": true,
     "no-object-mutation": [ true, { "ignore-prefix": ["this.", "exports."] } ],
     "no-delete": true,
