@@ -51,6 +51,7 @@
     "no-unsafe-any": false,
     "no-unused-expression": false,
     "no-unused-variable": false,
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
     "strict-boolean-expressions": false, // ?
     "strict-type-predicates": false,
     "triple-equals": [true, "allow-null-check", "allow-undefined-check"],

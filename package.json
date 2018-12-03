@@ -1,6 +1,6 @@
 {
   "name": "@jbpionnier/eslint-config-node",
-  "version": "1.7.3",
+  "version": "1.7.6",
   "description": "ESLint Sharable Config",
   "author": "Jean-Baptiste Pionnier",
   "license": "MIT",
@@ -35,6 +35,7 @@
     "base.js",
     "legacy.js",
     "flow.js",
+    "tsconfig.json",
     "tslint.json",
     "tslint-strict.json",
     "tslint-immutable.json",
@@ -45,6 +46,6 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "eslint": "^5.7.0"
+    "eslint": "^5.9.0"
   }
 }
