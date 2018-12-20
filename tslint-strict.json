@@ -2,6 +2,7 @@
   "extends": "tslint:all",
   "rules": {
     // TypeScript Specific
+    "ban-ts-ignore": false,
     "member-access": [true, "no-public"],
     "member-ordering": [
       true,
@@ -24,6 +25,7 @@
     ],
     "no-empty-interface": false,
     "no-import-side-effect": false, // ?
+    "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
     "no-magic-numbers": false, // ?
     "no-var-requires": false,
     "only-arrow-functions": false,
