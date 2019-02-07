@@ -25,7 +25,7 @@ Create a file named `.eslintrc` in your project:
 Our default export contains all of our ESLint rules, including ECMAScript 6+.
 
 
-### :ok_woman: eslint-config-node/flow
+### :ok_woman: eslint-config-node/flow (deprecated)
 
 Lints ECMAScript 6+ with [Flow](https://flowtype.org/) support. Requires `babel-eslint` and [`eslint-plugin-flowtype`](https://github.com/gajus/eslint-plugin-flowtype)
 
@@ -41,7 +41,7 @@ for more information.
 
 _WTF ? tslint config in eslint config module ? :persevere:_
 
-We export three [TSLint](https://palantir.github.io/tslint/) configurations for your usage.
+We export two [TSLint](https://palantir.github.io/tslint/) configurations for your usage.
 
 Create a file named `tslint.json` in your project:
 
@@ -52,10 +52,6 @@ Create a file named `tslint.json` in your project:
 }
 
 ```
-
-### :v: eslint-config-node/tslint
-
-Lints Typescript
 
 ### :guardsman: eslint-config-node/tslint-strict
 
@@ -69,7 +65,7 @@ Use the --type-check flag to make sure your program has no type errors.
 }
 ```
 
-### :bento: eslint-config-node/tslint-immutable
+### :v: eslint-config-node/tslint-immutable
 
 Lints Typescript with immutable rules with : 
  - [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
