@@ -29,7 +29,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+.
 
 Lints ECMAScript 6+ with [Flow](https://flowtype.org/) support. Requires `babel-eslint` and [`eslint-plugin-flowtype`](https://github.com/gajus/eslint-plugin-flowtype)
 
-### :hospital: eslint-config-node/legacy
+### :hospital: eslint-config-node/legacy (deprecated)
 
 Lints ES5 and below.
 
